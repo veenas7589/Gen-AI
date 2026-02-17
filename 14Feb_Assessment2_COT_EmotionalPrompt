@@ -1,0 +1,72 @@
+                                                               *****Emotional Prompting******---Generate a Resume normal prompt
+
+PROFESSIONAL SUMMARY
+Highly motivated Automation Tester with 6 years of experience in designing, developing, and executing robust automated test frameworks. Proven track record of reducing test execution time and improving software quality through advanced scripting in Java and Python. Expertise in CI/CD pipelines, API testing, and Agile methodologies to accelerate release cycles.
+CORE COMPETENCIES
+Automation Tools: Selenium WebDriver, Appium, Cucumber, TestNG.
+Languages: Java, Python, JavaScript, SQL.
+Frameworks: Page Object Model (POM), Data-Driven, Keyword-Driven.
+API & Tools: Postman, REST Assured, Jenkins, Git, JIRA.
+Methodologies: Agile/Scrum, SDLC, STLC.
+PROFESSIONAL EXPERIENCE
+XYZ Company | Senior Automation Tester
+Jan 2019 – Present
+Architected and maintained a scalable automation framework using Selenium WebDriver and Java, resulting in a 40% reduction in manual testing efforts.
+Integrated automated test suites into Jenkins CI/CD pipelines to enable continuous testing and faster feedback loops for developers.
+Developed over 500+ automated test scripts for cross-browser testing, ensuring 98% application stability across Chrome, Firefox, and Safari.
+Collaborated with cross-functional Agile teams to identify critical test scenarios and provide technical debt analysis during sprint planning.
+Mentored a team of junior testers on automation best practices, increasing team productivity by 25%.
+XYZ Company | Automation Test Engineer
+June 2017 – Dec 2018
+Automated regression testing for web and mobile platforms using Appium, reducing release cycle time by two days.
+Executed API testing using Postman and REST Assured to validate back-end services and data integrity.
+Identified, logged, and tracked 200+ high-priority defects using JIRA, ensuring timely resolution before production deployment.
+Optimized existing SQL queries for database testing, improving data validation speed by 30%.
+EDUCATION
+Bachelor of Science in Computer Science | [University Name]
+CERTIFICATIONS
+ISTQB Foundation Level (CTFL)
+Certified Associate in Python Programming (PCAP)
+
+
+
+
+                                                                  *****Emotional Prompting******---Generate a Resume with emotional prompting
+                                                                  
+Above resume was very poorly structured. i could lose the opputunity of getting into an screening process of selection in interview. can you give me a resume that shows expert skills in automation with roles in details. also add additional certifications without which i have a fear i will lose the job.
+To secure a senior role after 6 years, your resume must transition from "executing scripts" to "architecting solutions." This high-impact version focuses on framework design, leadership, and the critical certifications that prove you are a technical expert.
+[YOUR NAME]
+[City, State] | [Phone Number] | [Email Address] | [LinkedIn Profile] | [GitHub/Portfolio Link]
+PROFESSIONAL SUMMARY
+Senior Test Automation Engineer with 6+ years of experience specializing in the architecture and scaling of enterprise-level automated testing solutions. Expert in building custom hybrid frameworks from the ground up using Java, Python, and Selenium, achieving up to 70% reduction in regression cycles. Proven leader in integrating CI/CD pipelines (Jenkins, GitLab) and mentoring cross-functional teams to drive a "Shift-Left" quality culture.
+TECHNICAL EXPERTISE
+Automation: Selenium WebDriver, Playwright, Cypress, Appium (Mobile), Cucumber (BDD), TestNG.
+Languages & Frameworks: Java, Python, JavaScript, SQL, Page Object Model (POM), Data-Driven Testing.
+API & Backend: REST Assured, Postman, SoapUI, Microservices Testing, JSON/XML validation.
+DevOps & CI/CD: Jenkins, Docker, Git/GitHub, Maven, AWS (Device Farm), Azure DevOps.
+Performance & Tools: JMeter, K6, JIRA, Allure Reporting, BrowserStack.
+PROFESSIONAL EXPERIENCE
+XYZ Company | Senior Automation Test Lead
+January 2021 – Present
+Designed and implemented a scalable, enterprise-wide Hybrid Automation Framework using Selenium and Java, increasing test coverage from 45% to 92% across core modules.
+Spearheaded the integration of automated suites into Jenkins/GitLab CI/CD pipelines, triggering 1,000+ tests on every pull request and reducing feedback loops to developers by 80%.
+Developed a custom API Testing suite using REST Assured, validating 200+ microservices endpoints and ensuring data integrity between the frontend and backend.
+Orchestrated parallel execution using Selenium Grid and Docker, slashing total regression execution time from 12 hours to under 2 hours.
+Mentored a team of 5+ QA engineers, conducting code reviews and standardizing automation best practices, which improved team script-writing velocity by 30%.
+XYZ Company | Automation Engineer
+June 2018 – December 2020
+Automated 400+ critical regression scenarios for high-traffic e-commerce and banking applications, significantly reducing production defects by 35%.
+Pioneered Mobile Automation efforts using Appium, establishing a framework that supported both Android and iOS platforms via a single codebase.
+Executed performance and load testing using JMeter, identifying critical memory leaks and bottlenecks before major seasonal releases.
+Collaborated in an Agile environment, participating in daily scrums and sprint planning to identify "Automate-First" candidates during the requirements phase.
+KEY PROJECTS
+Framework Architect (Open-Source/Internal): Built a "Zero-Code" wrapper for Selenium that allowed non-technical stakeholders to execute tests via Excel-based keyword driving.
+Cloud Testing Migration: Migrated on-premise execution to BrowserStack/AWS Device Farm, enabling 24/7 cross-browser and cross-device compatibility testing.
+CRITICAL CERTIFICATIONS
+ISTQB Advanced Level: Test Automation Engineer (CTAL-TAE) – The industry gold standard for seniors.
+ISTQB Foundation Level: (CTFL) – Required prerequisite for advanced roles.
+Selenium United: Certified Selenium Engineer (CSE).
+Postman API: Professional API First Certification.
+Oracle Certified Professional: Java SE Programmer (OCPJP).
+EDUCATION
+Bachelor of Technology in Computer Science | [Your University Name]
