@@ -19,15 +19,10 @@ Classified based on **Model | Architecture Style | Key Features**
 *Architecture Style:* Dense + MoE hybrid (LLaMA 4)
 *Key Features:* Earlier versions were dense transformers; LLaMA 4 integrates Mixture of Experts for efficiency, supports multimodal input (text + images), and offers open weights.
 
-Here is the text from the image:
-
----
 
 **Qwen (Alibaba Cloud)**
 *Architecture Style:* Hybrid dense + MoE
 *Key Features:* Qwen3 family includes both dense and MoE variants (up to 235B parameters); introduces “thinking mode” for complex reasoning and “non-thinking mode” for fast responses; strong multilingual support.
-
----
 
 * **Dense transformers (GPT, early LLaMA):** Simpler, predictable, but expensive to scale.
 
@@ -37,7 +32,7 @@ Here is the text from the image:
 
 * **Reasoning modes (Gemini’s Deep Think, Qwen’s Thinking Mode):** Explicit architectural support for multi-step reasoning, a trend toward specialized cognitive abilities.
 
-Different AI architectures reflect trade-offs between efficiency, scalability, and capability. Let’s break down the main styles you mentioned:
+Different AI architectures reflect trade-offs between efficiency, scalability, and capability. 
 1. Dense Feedforward Transformers (FNN)
 •	Used by: GPT (OpenAI), early LLaMA versions
 •	How it works: Every token passes through the same full set of parameters in each layer.
