@@ -1,0 +1,32 @@
+From Open router collect info about for any 3 models
+-	Context window
+- Input token
+-	Output token
+
+1.	Anthropic: Claude Sonnet 4.5
+1M context$3/M input tokens$15/M output tokens
+2.	OpenAI: GPT-5 Nano
+400K context$0.05/M input tokens$0.40/M output tokens
+3.	Qwen: Qwen3 235B A22B Instruct 2507
+262K context$0.071/M input tokens$0.10/M output tokens
+
+Context Window
+•	The maximum number of tokens (chunks of text) the model can keep in memory at once.
+•	Larger context windows mean the model can handle longer conversations, documents, or code without “forgetting” earlier parts.
+•	Example: A 1M context window (Claude Sonnet 4.5) can process an entire book or huge codebase in one go, while 400K (GPT 5 Nano) is smaller but still very large.
+Input Tokens
+•	Tokens you send to the model (your prompt, instructions, or uploaded text).
+•	Pricing is usually per million input tokens.
+•	Example: If you paste a 10,000 word document, those words are converted into tokens and billed as input.
+Output Tokens
+•	Tokens the model generates in response (its answer, completion, or continuation).
+•	Pricing is per million output tokens.
+•	Example: If the model writes a 5,000 word essay back, those words are billed as output.
+Putting It Together
+•	Context window = memory capacity (how much text the model can consider at once).
+•	Input tokens = what you pay for sending text in.
+•	Output tokens = what you pay for the model’s generated text out.
+•  Claude Sonnet 4.5: Huge memory (1M tokens), but expensive per input/output.
+•	GPT 5 Nano: Smaller memory (400K), but very cheap per token.
+•	Qwen3 235B: Mid range memory (262K), with balanced pricing.
+
