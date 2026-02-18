@@ -1,0 +1,323 @@
+Below is the beautified and formatted response for S08-Test Stop Generating Testcases-HW
+
+Test Cases – Doctor Activity & Notes Management
+📌 Module 1: Doctor Activity Management
+✅ TC_ID: 1
+
+Title: Successful Recording of Doctor Activity
+Type: Positive
+
+Preconditions:
+
+User is logged into the system
+
+User has permission to record doctor activities
+
+System is operational
+
+Test Steps:
+
+Navigate to the Doctor Activity Recording section
+
+Select a doctor from the list
+
+Choose an activity type
+
+Enter valid activity details
+
+Click Save
+
+Test Data:
+
+Doctor Name: Valid doctor
+
+Activity Type: Valid type
+
+Activity Details: Valid description
+
+Expected Result:
+
+Activity is successfully recorded
+
+Confirmation message is displayed
+
+❌ TC_ID: 2
+
+Title: Recording Doctor Activity with Invalid Data
+Type: Negative
+
+Preconditions:
+
+User is logged in
+
+User has required permissions
+
+Test Steps:
+
+Navigate to Doctor Activity section
+
+Select a doctor
+
+Choose activity type
+
+Enter invalid activity details (e.g., disallowed special characters)
+
+Click Save
+
+Test Data:
+
+Activity Details: Invalid format
+
+Expected Result:
+
+System prevents saving the record
+
+Error message indicating invalid data format is displayed
+
+📌 Module 2: Doctor Notes Management
+✅ TC_ID: 3
+
+Title: Recording Doctor Notes Successfully
+Type: Positive
+
+Preconditions:
+
+User is logged in
+
+User has permission to record doctor notes
+
+System is operational
+
+Test Steps:
+
+Navigate to Doctor Notes section
+
+Select a doctor
+
+Enter valid notes
+
+Click Save
+
+Test Data:
+
+Doctor Name: Valid doctor
+
+Notes: Valid description
+
+Expected Result:
+
+Notes are saved successfully
+
+Confirmation message is displayed
+
+❌ TC_ID: 4
+
+Title: Recording Doctor Notes with Empty Fields
+Type: Negative
+
+Preconditions:
+
+User is logged in
+
+User has required permissions
+
+Test Steps:
+
+Navigate to Doctor Notes section
+
+Select a doctor
+
+Leave notes field empty
+
+Click Save
+
+Test Data:
+
+Notes: (Blank)
+
+Expected Result:
+
+System prevents saving
+
+Error message indicating required field is displayed
+
+📌 Module 3: View Functionality
+✅ TC_ID: 5
+
+Title: Viewing Recorded Doctor Activities
+Type: Positive
+
+Preconditions:
+
+At least one activity exists
+
+User has view permissions
+
+Test Steps:
+
+Navigate to Doctor Activities List
+
+Search for recorded activity
+
+Open activity details
+
+Expected Result:
+
+Activity details are displayed accurately
+
+✅ TC_ID: 6
+
+Title: Viewing Recorded Doctor Notes
+Type: Positive
+
+Preconditions:
+
+At least one note exists
+
+User has view permissions
+
+Test Steps:
+
+Navigate to Doctor Notes List
+
+Search for recorded note
+
+Open note details
+
+Expected Result:
+
+Note details are displayed accurately
+
+📌 Module 4: Edit Functionality
+✅ TC_ID: 7
+
+Title: Editing Recorded Doctor Activity
+Type: Positive
+
+Preconditions:
+
+Activity exists
+
+User has edit permissions
+
+Test Steps:
+
+Navigate to Doctor Activities List
+
+Search and select activity
+
+Click Edit
+
+Modify details
+
+Click Save
+
+Test Data:
+
+Modified activity details
+
+Expected Result:
+
+Activity is updated successfully
+
+Confirmation message is displayed
+
+✅ TC_ID: 8
+
+Title: Editing Recorded Doctor Notes
+Type: Positive
+
+Preconditions:
+
+Notes exist
+
+User has edit permissions
+
+Test Steps:
+
+Navigate to Doctor Notes List
+
+Search and select note
+
+Click Edit
+
+Modify content
+
+Click Save
+
+Test Data:
+
+Modified note content
+
+Expected Result:
+
+Notes are updated successfully
+
+Confirmation message is displayed
+
+📌 Module 5: Delete Functionality
+✅ TC_ID: 9
+
+Title: Deleting Recorded Doctor Activity
+Type: Positive
+
+Preconditions:
+
+Activity exists
+
+User has delete permissions
+
+Test Steps:
+
+Navigate to Doctor Activities List
+
+Select activity
+
+Click Delete
+
+Confirm deletion
+
+Expected Result:
+
+Activity is deleted successfully
+
+Confirmation message is displayed
+
+Record is removed from list
+
+✅ TC_ID: 10
+
+Title: Deleting Recorded Doctor Notes
+Type: Positive
+
+Preconditions:
+
+Notes exist
+
+User has delete permissions
+
+Test Steps:
+
+Navigate to Doctor Notes List
+
+Select note
+
+Click Delete
+
+Confirm deletion
+
+Expected Result:
+
+Notes are deleted successfully
+
+Confirmation message is displayed
+
+Record is removed from list
+
+📊 Summary Overview
+Module	Total Test Cases	Positive	Negative
+Doctor Activity	4	3	1
+Doctor Notes	4	3	1
+View/Edit/Delete	2	2	0
+Total	10	8	2
+
