@@ -1,0 +1,46 @@
+
+This is a bad request 400 response. 
+
+{
+    "error": {
+        "message": "`include_reasoning` is not supported with this model",
+        "type": "invalid_request_error",
+        "param": "include_reasoning"
+    }
+}
+
+removed the incluse reasoning param and tried generating response - 200 success response
+
+{
+    "id": "chatcmpl-57583bf8-dc4c-4519-9cdb-bfe18fef16ce",
+    "object": "chat.completion",
+    "created": 1771409462,
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "```java\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.WebElement;\nimport org.openqa.selenium.chrome.ChromeDriver;\n\npublic class Main {\n    public static void main(String[] args) {\n        System.setProperty(\"webdriver.chrome.driver\", \"/path/to/chromedriver\");\n        WebDriver driver = new ChromeDriver();\n        driver.get(\"your_website_url\");\n\n        WebElement companyNameInput = driver.findElement(By.name(\"companyName\"));\n        WebElement lastNameInput = driver.findElement(By.name(\"lastName\"));\n        WebElement firstNameInput = driver.findElement(By.name(\"firstName\"));\n        WebElement submitButton = driver.findElement(By.className(\"smallSubmit\"));\n\n        companyNameInput.sendKeys(\"Company Name\");\n        lastNameInput.sendKeys(\"Last Name\");\n        firstNameInput.sendKeys(\"First Name\");\n        submitButton.click();\n\n        driver.quit();\n    }\n}\n```"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "queue_time": 0.070877107,
+        "prompt_tokens": 166,
+        "prompt_time": 0.006869312,
+        "completion_tokens": 187,
+        "completion_time": 0.431042909,
+        "total_tokens": 353,
+        "total_time": 0.437912221
+    },
+    "usage_breakdown": null,
+    "system_fingerprint": "fp_79da0e0073",
+    "x_groq": {
+        "id": "req_01khr3pn5bfyjrb0r97e3ykrx2",
+        "seed": 1245918216
+    },
+    "service_tier": "on_demand"
+}
